@@ -6,8 +6,9 @@ const btn = document.querySelector(".btn");
 
 const showMsg = () => {
   content = pas.value;
+  console.log(content);
 
-  if (content == "MACGYVER 2K22") {
+  if (content == "macgyver 2k22") {
     correct.classList.add("active");
     unCorrect.classList.remove("unactive");
     console.log("działa");
