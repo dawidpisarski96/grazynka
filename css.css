@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(60deg, #e6b6eb 0%, #485563 100%);
+  font-size: 20px;
+}
+
+label {
+  font-size: 36px;
+  text-align: center;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.passinfo {
+  font-size: 18px;
+  color: rgb(172, 169, 169);
+}
+
+button {
+  margin: 0 0px;
+  margin-left: 20px;
+  padding: 5px 10px;
+  background: none;
+  border: 2px solid #e673ef;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.3s, box-shadow 0.3s;
+  box-shadow: 3px 3px 10px #b04ec1;
+}
+
+button:hover {
+  color: #00ffae;
+  box-shadow: 3px 3px 10px #00ffae;
+}
+
+.password {
+  text-align: center;
+}
+
+.inputPassword {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.correct {
+  display: none;
+  text-align: center;
+}
+
+.active {
+  display: block;
+  padding: 10px 20px;
+  font-size: 25px;
+}
+
+.un_correct {
+  display: none;
+}
+
+.unactive {
+  display: block;
+  padding: 10px 20px;
+  font-size: 25px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
